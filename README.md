@@ -16,6 +16,8 @@
 
 Task 2: Rest APIs Client
 
+This task is performed using the ‘Eclipse IDE for Java Developers - 2025-03’ .
+
 This Java desktop application is a real weather forecasting system whereby users can retrieve the current weather of any city. By just entering the city name in a graphical user interface, which is designed using Java Swing for its graphical user interface and using the Open-Meteo API, the program is quite simple to use and effective, visually intuitively displaying live weather information. This project shows very well how dynamic, real-time desktop environment information can be delivered by contemporary Java applications that interface with outside web APIs.
 
 The city-based weather search capability of the app is among its key features. A simple text field allows users to enter the name of any city. Clicking the search button causes the app to make an API call to the Open-Meteo Geocoding API in order to obtain the city's geographic coordinates—latitude and longitude. A second Open-Meteo Forecast API call is made once the location's coordinates have been gathered. This demand retrieves current weather data including temperature, humidity, wind speed, and a numerical weather condition code.
