@@ -23,6 +23,7 @@ This Java desktop application is a real weather forecasting system whereby users
 The city-based weather search capability of the app is among its key features. A simple text field allows users to enter the name of any city. Clicking the search button causes the app to make an API call to the Open-Meteo Geocoding API in order to obtain the city's geographic coordinates—latitude and longitude. A second Open-Meteo Forecast API call is made once the location's coordinates have been gathered. This demand retrieves current weather data including temperature, humidity, wind speed, and a numerical weather condition code.
 
 Upon launching, the constructor WeatherApp() initializes the GUI window using JFrame f. Inside the constructor, a JLabel l prompts the user to "Enter City:", and a JTextField t is provided to accept user input. A JButton b with a search icon ("🔍") triggers the API request when clicked. Styling is applied by setting the background color of f(JFrame) to a dark blue shade, while lcon and buttons have white foreground text.
+
 Inside actionPerformed, extracted weather parameters are stored in individual variables: temp1 (temperature), hum1 (humidity), wind1 (wind speed), and code (weather condition code). Based on code, two strings are determined—img, which matches to a local image file (e.g., "clear-sky", "rain", "snowy"), and codeName, a textual description of the weather (e.g., "Clear Sky", "Moderate Rain").
 
 Swing components are then dynamically created to display this data:
