@@ -39,3 +39,12 @@ Technically, the program uses several main Java libraries and APIs. For GUI desi
 From a user experience point of view, the app offers quick and short weather forecasts showing the current temperature in Celsius, percentage humidity, wind speed in kilometers per hour, and a qualitative weather condition along with its related icon. Users find it simple to interact with the app and immediately get information thanks to the straightforward design combined with responsive elements.
 
 This Java Weather Forecast Application  elegantly demonstrates how to retrieve and display real-time information aesthetically. Open to more development, the project is not only learning-based but also has potential upgrades. It’s a fantastic starting point for programmers interested in improving their knowledge of real-time Java applications.
+
+## OUTPUT ##
+Before Clicking on the "🔍" Button .
+
+![Image](https://github.com/user-attachments/assets/68119209-a192-4e5e-8d95-333619b87a3a)
+
+After Clicking on the "🔍" Button .
+
+![Image](https://github.com/user-attachments/assets/36eb2400-e562-41ae-be03-81a5d6996efd)
